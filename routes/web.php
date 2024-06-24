@@ -19,6 +19,9 @@ Route::get('/employeeM', [RelianceController::class, 'employeeM'])->name('employ
 Route::get('/HR', [RelianceController::class, 'HR'])->name('HR');
 
 
+Route::get('/faq', [RelianceController::class, 'faq'])->name('faq');
+
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

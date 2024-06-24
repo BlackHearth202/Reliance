@@ -84,6 +84,15 @@ public function employeeM()
 }
 
 
+public function faq()
+
+{
+
+    return view ('faq');
+
+}
+
+
 
 }
 

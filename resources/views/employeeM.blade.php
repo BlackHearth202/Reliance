@@ -1,11 +1,11 @@
-<x-Ecom.headE />
+<x-Ecom.head />
 
-<x-Eom.navE/>
+<x-Eom.nav />
 
-<x-Ecom.heroE />
+<x-Ecom.hero />
 
-<x-Ecom.forumE />
+<x-Ecom.forum />
 
-<x-Ecom.musaE />
+<x-Ecom.musa />
 
-<x-Ecom.footerE />
+<x-Ecom.footer />
