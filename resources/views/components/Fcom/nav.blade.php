@@ -13,7 +13,7 @@
             </ul>
             <div class="dropdown mx-auto"><a class="dropdown-toggle text-center" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" href="#" style="padding: 0px;margin: 0px;">Login</a>
                 <div class="dropdown-menu dropdown-menu-dark"><a class="dropdown-item" href="{{route('login')}}">Employee&nbsp;</a><a class="dropdown-item" href="{{route('login')}}">Human Resource</a><a class="dropdown-item" href="{{route('login')}}">Admin</a></div>
-            </div><a class="border rounded-0 border-1 shadow ms-auto" href="" style="background: rgb(80,84,180);font-size: 16px;font-weight: bold;border-color: var(--bs-navbar-disabled-color);color: rgb(253,254,255);width: 70.2625px;text-align: center;box-shadow: 30px 19px 12px 13px;">Sign Up</a>
+            </div><a class="border rounded-0 border-1 shadow ms-auto" href="{{route('register')}}" style="background: rgb(80,84,180);font-size: 16px;font-weight: bold;border-color: var(--bs-navbar-disabled-color);color: rgb(253,254,255);width: 70.2625px;text-align: center;box-shadow: 30px 19px 12px 13px;">Sign Up</a>
         </div>
     </div>
 </nav><!-- End: Navbar Centered Links -->

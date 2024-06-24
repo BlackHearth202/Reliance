@@ -67,6 +67,13 @@ public function Admin()
 
 }
 
+public function register ()
+
+{
+
+    return view ('register');
+
+}
 
 
 }

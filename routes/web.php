@@ -20,7 +20,6 @@ Route::get('/HR', [RelianceController::class, 'HR'])->name('HR');
 
 
 
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
