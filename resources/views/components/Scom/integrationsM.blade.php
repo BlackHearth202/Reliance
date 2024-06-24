@@ -6,7 +6,7 @@
             <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
                 <div style="max-width: 350px;">
                     <h1 class="display-5 fw-bold pulse animated mb-4">Skyrocket your productivity with our&nbsp;<span class="underline">tools</span>.</h1>
-                    <p class="text-muted my-4">End the manual way of storing employee records and details , use our tools to better manage your company in order to boost productivity.</p><a class="btn btn-primary btn-lg me-2" role="button" href="/features.html">Features</a><a class="btn btn-outline-primary btn-lg" role="button" href="#">Login</a>
+                    <p class="text-muted my-4">End the manual way of storing employee records and details , use our tools to better manage your company in order to boost productivity.</p><a class="btn btn-primary btn-lg me-2" role="button" href="{{route('features')}}">Features</a><a class="btn btn-outline-primary btn-lg" role="button" href="{{route('login')}}">Login</a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -54,7 +54,7 @@
             <div class="col d-md-flex align-items-md-end align-items-lg-center mb-5">
                 <div class="ms-md-3">
                     <h5 class="fs-3 fw-bold mb-4">Data processing tools</h5>
-                    <p class="text-muted mb-4">Wanna process your employee work output in real-time ? We have the right tools for that .&nbsp;</p><a class="fw-bold link-primary" href="/Logins/emplogin.html">Browse tools&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-arrow-narrow-right fs-3 rubberBand animated infinite">
+                    <p class="text-muted mb-4">Wanna process your employee work output in real-time ? We have the right tools for that .&nbsp;</p><a class="fw-bold link-primary" href="{{route('integrations')}}">Browse tools&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-arrow-narrow-right fs-3 rubberBand animated infinite">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <line x1="5" y1="12" x2="19" y2="12"></line>
                             <line x1="15" y1="16" x2="19" y2="12"></line>

@@ -7,7 +7,7 @@
                 <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
                     <div style="max-width: 350px;">
                         <h1 class="display-6 fw-bold bounce animated mb-4">Everything your team needs in one&nbsp;<span class="underline">platform</span>.</h1>
-                        <p class="my-4">Specialized tools and features that make everyone's work easier and productive. We encourage you to utilize every integration on this website , it won't break .</p><a class="btn btn-primary btn-lg me-2" role="button" href="/integrations.html">Integrations&nbsp;</a><a class="btn btn-outline-primary btn-lg" role="button" href="/faq.html">&nbsp;FAQ&nbsp;</a>
+                        <p class="my-4">Specialized tools and features that make everyone's work easier and productive. We encourage you to utilize every integration on this website , it won't break .</p><a class="btn btn-primary btn-lg me-2" role="button" href="{{route('integrations')}}">Integrations&nbsp;</a><a class="btn btn-outline-primary btn-lg" role="button" href="/faq.html">&nbsp;FAQ&nbsp;</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -43,7 +43,7 @@
                                         <path d="M3 13a20 20 0 0 0 18 0"></path>
                                     </svg></div>
                                 <h5 class="fw-bold">For Human Resource</h5>
-                                <p class="text-muted">We've created the best tool to better mange your employees and make them more productive.</p><a class="fw-bold link-primary" href="/Logins/HLogin.html">Click to Login<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
+                                <p class="text-muted">We've created the best tool to better mange your employees and make them more productive.</p><a class="fw-bold link-primary" href="{{route('login')}}">Click to Login<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                         <line x1="5" y1="12" x2="19" y2="12"></line>
                                         <line x1="15" y1="16" x2="19" y2="12"></line>
@@ -109,7 +109,7 @@
                                 <div class="card-body">
                                     <div>
                                         <h4 class="fw-bold">Other Services ?</h4>
-                                        <p class="text-muted d-none d-xl-block">Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p><a class="fw-bold link-primary" href="/integrations.html">Explore more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
+                                        <p class="text-muted d-none d-xl-block">Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate cras aenean.</p><a class="fw-bold link-primary" href="{{route('integrations')}}">Explore more&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-arrow-narrow-right fs-3">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                                 <line x1="5" y1="12" x2="19" y2="12"></line>
                                                 <line x1="15" y1="16" x2="19" y2="12"></line>
