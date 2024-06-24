@@ -2,10 +2,7 @@
 
 <x-Fcom.nav />
 
-<x-Fcom.header />
+<x-Scom.supportM />
 
-<x-Fcom.hero />
-
-<x-Fcom.banner />
 
 <x-Fcom.footer />
