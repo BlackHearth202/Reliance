@@ -1,6 +1,6 @@
 <x-Ecom.head />
 
-<x-Eom.nav />
+<x-Ecom.nav />
 
 <x-Ecom.hero />
 

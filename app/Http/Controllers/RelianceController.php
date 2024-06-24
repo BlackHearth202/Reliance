@@ -93,6 +93,15 @@ public function faq()
 }
 
 
+public function chats()
+
+{
+
+    return view ('chats');
+
+}
+
+
 
 }
 
