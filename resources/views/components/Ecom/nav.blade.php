@@ -6,15 +6,15 @@
                         </svg></span><span>Relaince Employee</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-4"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse flex-grow-0 order-md-first" id="navcol-4">
                     <ul class="navbar-nav me-auto">
-                        <li class="nav-item"><a class="nav-link active" href="#">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="{{route('dashboard')}}">Dashboard</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{route('chats')}}">Chats</a></li>
                     </ul>
                     <div class="d-md-none my-2"><button class="btn btn-light me-2" type="button">Button</button><button class="btn btn-primary" type="button">Button</button></div>
                 </div>
                 <div class="dropdown"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#">More</a>
-                    <div class="dropdown-menu dropdown-menu-dark"><a class="dropdown-item" href="{{route('profile.edit')}}">Profile</a><a class="dropdown-item" href="{{route('chats')}}">Send a Direct Message</a><a class="dropdown-item" href="/Leave.html">Apply for leave/Vacation</a><a class="dropdown-item" href="./EmpTraining.html">Trainings</a><a class="dropdown-item" href="../index.html">Logout</a></div>
+                    <div class="dropdown-menu dropdown-menu-dark"><a class="dropdown-item" href="{{route('profile.edit')}}">Profile</a><a class="dropdown-item" href="{{route('chats')}}">Send a Direct Message</a><a class="dropdown-item" href="/Leave.html">Apply for leave/Vacation</a><a class="dropdown-item" href="./EmpTraining.html">Trainings</a><a class="dropdown-item" href="#">Logout</a></div>
                 </div>
-                <div class="d-none d-md-block"><a class="btn btn-primary" role="button" href="../index.html">logout</a></div>
+                <div class="d-none d-md-block"><a class="btn btn-primary" role="button" href="#">logout</a></div>
             </div>
         </nav><!-- End: Navbar Centered Brand -->
     </div>

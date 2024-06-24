@@ -6,7 +6,9 @@
             <div class="row gy-4 gy-md-0">
                 <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
                     <div class="pulse animated" style="max-width: 350px;">
-                        <h1 class="display-6 fw-bold pulse animated mb-4">Welcome Mr. Sam</h1>
+                        <h3>Welcome !</h3>
+                        <br>
+                        <h4 class="display-7 fw-bold pulse animated mb-4">{{Auth::user()->name}}</h4>
                         <p class="my-4">This page contains your work emails , task for today and others</p>
                     </div>
                 </div>
