@@ -75,6 +75,15 @@ public function register ()
 
 }
 
+public function employeeM()
+
+{
+
+    return view ('employeeM');
+
+}
+
+
 
 }
 

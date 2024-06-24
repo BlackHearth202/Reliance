@@ -14,10 +14,9 @@ Route::get('/integrations', [RelianceController::class, 'integrations'])->name('
 Route::get('/support', [RelianceController::class, 'support'])->name('support');
 
 
-Route::get('/employee', [RelianceController::class, 'employee'])->name('employee');
+Route::get('/employeeM', [RelianceController::class, 'employeeM'])->name('employeeM');
 
 Route::get('/HR', [RelianceController::class, 'HR'])->name('HR');
-
 
 
 Route::get('/dashboard', function () {
