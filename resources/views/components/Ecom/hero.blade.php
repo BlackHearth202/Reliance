@@ -8,7 +8,7 @@
                     <div class="pulse animated" style="max-width: 350px;">
                         <h3>Welcome !</h3>
                         <br>
-                        <h4 class="display-7 fw-bold pulse animated mb-4">{{Auth::user()->name}}</h4>
+                        <h4 class="display-7 fw-bold pulse animated mb-4">{{Auth::user()->name ?? 'N/a'}}</h4>
                         <p class="my-4">This page contains your work emails , task for today and others</p>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                                 </svg>&nbsp; 1 New Message from: H.R &nbsp;</h2>
                             <p class="mb-0" style="text-shadow: 0px 11px 10px;">From HR: Your leave for July has been granted ,kindly check your Email .&nbsp;</p>
                         </div>
-                        <div class="my-2"><a class="btn btn-light fs-5 py-2 px-4" role="button" data-bss-hover-animate="pulse" href="./DMemployee.html">Click to reply</a></div>
+                        <div class="my-2"><a class="btn btn-light fs-5 py-2 px-4" role="button" data-bss-hover-animate="pulse" href="{{route('chats')}}">Click to see</a></div>
                     </div>
                 </div>
             </section><!-- End: Contact Us Banner -->

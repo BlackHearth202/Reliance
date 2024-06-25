@@ -24,6 +24,9 @@ Route::get('/faq', [RelianceController::class, 'faq'])->name('faq');
 
 Route::get('/chats', [RelianceController::class, 'chats'])->name('chats');
 
+
+Route::get('/leave', [RelianceController::class, 'leave'])->name('leave');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

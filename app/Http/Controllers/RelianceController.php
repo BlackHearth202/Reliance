@@ -102,6 +102,13 @@ public function chats()
 }
 
 
+public function leave()
+
+{
+
+    return view ('leave');
+
+}
 
 }
 
