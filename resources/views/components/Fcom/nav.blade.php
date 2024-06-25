@@ -1,12 +1,19 @@
-   <!-- Start: Navbar Centered Links -->
+<?php 
+  function current_page($uri = "/") { 
+    return strstr(request()->path(), $uri); 
+  } 
+?> 
+ 
+ 
+ <!-- Start: Navbar Centered Links -->
    <nav class="navbar navbar-light navbar-expand-md fixed-top navbar-shrink py-3" id="mainNav">
     <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><span style="font-size: 17px;">Reliance</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="navbar-nav mx-auto">
-                <li class="nav-item"><a class="nav-link active" href="/" data-bs-target="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('features')}}">Features</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('integrations')}}">Integrations</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('support')}}">Support</a></li>
+                <li class="nav-item"><a class="nav-link {{ request()->is('/') ? 'active' : ''}}" href="{{route('Welcome')}}">{{ __('Home') }}</a></li>
+                <li class="nav-item"><a class="nav-link {{ request()->is('features') ? 'active' : ''}}" href="{{route('features')}}">{{ __('Features') }}</a></li>
+                <li class="nav-item"><a class="nav-link {{ request()->is('integrations') ? 'active' : ''}}" href="{{route('integrations')}}">{{ __('Integrations') }}</a></li>
+                <li class="nav-item"><a class="nav-link {{ request()->is('support') ? 'active' : ''}}" href="{{route('support')}}">{{ __('Support') }}</a></li>
                 <li class="nav-item"></li>
                 <li class="nav-item"></li>
                 <li class="nav-item"></li>

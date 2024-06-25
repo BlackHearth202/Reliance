@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\http\Controllers\RelianceController;
 
 
-Route::get('/', [RelianceController::class, 'index']);
+Route::get('/', [RelianceController::class, 'index'])->name('Welcome');
 
 Route::get('/features', [RelianceController::class, 'features'])->name('features');
 
